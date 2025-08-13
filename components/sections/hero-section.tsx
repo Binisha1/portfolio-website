@@ -62,7 +62,8 @@ export function HeroSection({ setActiveSection }: HeroSectionProps) {
       </div>
 
       {/* Right Side Spline - half screen */}
-      <div className="w-1/2 h-full">
+
+      <div className="w-1/2 h-full hidden lg:block">
         <Spline
           scene="https://prod.spline.design/WJI29Gmy2qJKnZIy/scene.splinecode"
           className="w-full h-full"

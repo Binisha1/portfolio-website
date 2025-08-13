@@ -22,7 +22,7 @@ export function HeroSection({ setActiveSection }: HeroSectionProps) {
   return (
     <section id="home" className="h-screen relative overflow-hidden flex">
       {/* Left Side Text - half screen */}
-      <div className="w-1/2 flex flex-col justify-center px-8 lg:px-20 pointer-events-auto z-10">
+      <div className="lg:w-1/2 flex flex-col justify-center px-8 lg:px-20 pointer-events-auto z-10">
         <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
           Software Engineer
         </h1>

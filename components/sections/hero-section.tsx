@@ -44,8 +44,8 @@ export function HeroSection({ setActiveSection }: HeroSectionProps) {
             className="bg-gradient-to-r from-green-500 to-teal-600 hover:from-green-600 hover:to-teal-700 px-6 sm:px-8 py-2 sm:py-3 text-base sm:text-lg"
             onClick={() => {
               const link = document.createElement("a");
-              link.href = "/cv.pdf";
-              link.download = "Software_Engineer_CV.pdf";
+              link.href = "/binishacv.pdf";
+              link.download = "Binisha_Naga_CV.pdf";
               link.click();
             }}
           >

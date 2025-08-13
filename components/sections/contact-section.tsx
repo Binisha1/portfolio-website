@@ -49,31 +49,42 @@ export function ContactSection() {
             </CardContent>
           </Card>
 
-          <Card className="bg-gray-800/30 border-gray-700/30 backdrop-blur-sm hover:bg-gray-800/50 transition-all duration-300 group relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-radial from-purple-400/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <CardContent className="p-4 sm:p-6 text-center relative z-10">
-              <Github className="w-6 h-6 sm:w-8 sm:h-8 mx-auto mb-3 sm:mb-4 text-purple-400 group-hover:text-purple-300 transition-colors duration-300" />
-              <h3 className="text-base sm:text-lg font-semibold text-white mb-2">
-                GitHub
-              </h3>
-              <p className="text-sm sm:text-base text-gray-400">
-                https://github.com/Binisha1
-              </p>
-            </CardContent>
-          </Card>
-
-          <Card className="bg-gray-800/30 border-gray-700/30 backdrop-blur-sm hover:bg-gray-800/50 transition-all duration-300 group relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-radial from-green-400/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <CardContent className="p-4 sm:p-6 text-center relative z-10">
-              <Linkedin className="w-6 h-6 sm:w-8 sm:h-8 mx-auto mb-3 sm:mb-4 text-green-400 group-hover:text-green-300 transition-colors duration-300" />
-              <h3 className="text-base sm:text-lg font-semibold text-white mb-2">
-                LinkedIn
-              </h3>
-              <p className="text-sm sm:text-base text-gray-400">
-                https://www.linkedin.com/in/binisha-naga-ab93b1294/
-              </p>
-            </CardContent>
-          </Card>
+          <a
+            href="https://github.com/Binisha1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Card className="bg-gray-800/30 border-gray-700/30 backdrop-blur-sm hover:bg-gray-800/50 transition-all duration-300 group relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-radial from-purple-400/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <CardContent className="p-4 sm:p-6 text-center relative z-10">
+                <Github className="w-6 h-6 sm:w-8 sm:h-8 mx-auto mb-3 sm:mb-4 text-purple-400 group-hover:text-purple-300 transition-colors duration-300" />
+                <h3 className="text-base sm:text-lg font-semibold text-white mb-2">
+                  GitHub
+                </h3>
+                <p className="text-sm sm:text-base text-gray-400">
+                  https://github.com/Binisha1
+                </p>
+              </CardContent>
+            </Card>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/binisha-naga-ab93b1294/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Card className="bg-gray-800/30 border-gray-700/30 backdrop-blur-sm hover:bg-gray-800/50 transition-all duration-300 group relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-radial from-green-400/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <CardContent className="p-4 sm:p-6 text-center relative z-10">
+                <Linkedin className="w-6 h-6 sm:w-8 sm:h-8 mx-auto mb-3 sm:mb-4 text-green-400 group-hover:text-green-300 transition-colors duration-300" />
+                <h3 className="text-base sm:text-lg font-semibold text-white mb-2">
+                  LinkedIn
+                </h3>
+                <p className="text-sm sm:text-base text-gray-400">
+                  https://www.linkedin.com/in/binisha-naga-ab93b1294/
+                </p>
+              </CardContent>
+            </Card>
+          </a>
         </div>
       </div>
     </section>

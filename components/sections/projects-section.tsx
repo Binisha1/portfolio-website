@@ -21,12 +21,8 @@ export function ProjectsSection() {
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="relative bg-gray-800/50 border-gray-700/50 backdrop-blur-sm 
-             overflow-hidden transition-all duration-300 hover:bg-gray-800/70
-             before:absolute before:inset-0 
-             before:bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.4)_0%,rgba(255,255,255,0)_70%)] 
-             before:opacity-0 hover:before:opacity-100 
-             before:transition-opacity before:duration-300"
+              className="bg-gray-800/50 border-gray-700/50 backdrop-blur-sm 
+             transition-all duration-300 hover:brightness-110 hover:bg-gray-800/70"
             >
               <CardHeader>
                 <div className="flex items-center gap-3 mb-3">

@@ -40,7 +40,7 @@ export function HeroSection({ setActiveSection }: HeroSectionProps) {
           >
             View Projects
           </Button>
-          <Button
+          {/* <Button
             className="bg-gradient-to-r from-green-500 to-teal-600 hover:from-green-600 hover:to-teal-700 px-6 sm:px-8 py-2 sm:py-3 text-base sm:text-lg"
             onClick={() => {
               const link = document.createElement("a");
@@ -50,7 +50,7 @@ export function HeroSection({ setActiveSection }: HeroSectionProps) {
             }}
           >
             Download CV
-          </Button>
+          </Button> */}
           <Button
             variant="outline"
             className="border-white/40 bg-white/10 text-white hover:text-white hover:bg-white/20 px-6 sm:px-8 py-2 sm:py-3 text-base sm:text-lg"

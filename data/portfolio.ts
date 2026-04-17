@@ -12,11 +12,10 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
   {
-    title: "Linear Website Clone",
-    description: "Clone of Linear Website home page",
-    tech: ["React", "Tailwind", "Framer Motion"],
-    github: "https://github.com/Binisha1/linearWebsiteClone",
-    demo: "https://linearclonebini.netlify.app/",
+    title: "Ascend",
+    description: "Productivity app with goal tracking, task scheduling, vision boards, notes, and affirmations",
+    tech: ["React", "Next.js", "Tailwind", "Framer Motion", "FastAPI", "PostgreSQL"],
+    demo: "https://ascend-roan-one.vercel.app",
   },
   {
     title: "ChatBot",

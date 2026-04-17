@@ -18,6 +18,13 @@ export const projects: Project[] = [
     demo: "https://ascend-roan-one.vercel.app",
   },
   {
+    title: "Linear Website Clone",
+    description: "Clone of Linear Website home page",
+    tech: ["React", "Tailwind", "Framer Motion"],
+    github: "https://github.com/Binisha1/linearWebsiteClone",
+    demo: "https://linearclonebini.netlify.app/",
+  },
+  {
     title: "ChatBot",
     description: "A Chatbot with Gemini API for real time conversations",
     tech: ["Next.js", "FastAPI", "Tailwind", "TypeScript"],
